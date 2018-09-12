@@ -29,4 +29,11 @@ class CartController extends Controller
 
         return [];
     }
+
+    public function index(Request $request)
+    {
+        $cartItems = $request->user()->cartItems()->with(['productSku.product'])->get();
+
+        return view('cart.index', ['cartItems' => $cartItems]);
+    }
 }
