@@ -8798,6 +8798,11 @@ body {
   color: #9e9e9e;
 }
 
+.orders-show-page .product-info .payment-buttons {
+  margin-top: 10px;
+  padding-right: 10px;
+}
+
 .orders-show-page .table {
   margin-bottom: 0;
 }
