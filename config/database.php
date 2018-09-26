@@ -115,6 +115,9 @@ return [
             'database' => 0,
         ],
 
+        'options' => [
+            'prefix' => 'larashop:',
+        ],
     ],
 
 ];
