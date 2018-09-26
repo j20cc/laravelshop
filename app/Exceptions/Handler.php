@@ -14,6 +14,7 @@ class Handler extends ExceptionHandler
      */
     protected $dontReport = [
         InvalidRequestException::class,
+        CouponCodeUnavailableException::class
     ];
 
     /**
@@ -26,14 +27,6 @@ class Handler extends ExceptionHandler
         'password_confirmation',
     ];
 
-    /**
-     * Report or log an exception.
-     *
-     * This is a great spot to send exceptions to Sentry, Bugsnag, etc.
-     *
-     * @param  \Exception  $exception
-     * @return void
-     */
     public function report(Exception $exception)
     {
         parent::report($exception);
