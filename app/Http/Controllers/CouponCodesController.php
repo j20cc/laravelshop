@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Exceptions\CouponCodeUnavailableException;
 use App\Http\Requests\Request;
 use App\Models\CouponCode;
 
