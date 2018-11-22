@@ -54,6 +54,7 @@ return [
     'refresh_succeeded' => '刷新成功 !',
     'login_successful'  => '登录成功 !',
 
+    'search'       => '搜索',
     'choose'       => '选择',
     'choose_file'  => '选择文件',
     'choose_image' => '选择图片',
@@ -88,7 +89,7 @@ return [
     'confirm'    => '确认',
     'cancel'     => '取消',
 
-    'http' => [
+    'http'                 => [
         'method' => 'HTTP方法',
         'path'   => 'HTTP路径',
     ],
