@@ -61,7 +61,8 @@ class UsersController extends Controller
             $grid->actions(function ($actions) {
                 // 不在每一行后面展示删除按钮
                 $actions->disableDelete();
-
+                // 不展示 Laravel-Admin 默认的查看按钮
+                $actions->disableView();
                 // 不在每一行后面展示编辑按钮
                 $actions->disableEdit();
             });

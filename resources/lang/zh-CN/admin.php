@@ -41,6 +41,7 @@ return [
     'back'              => '返回',
     'back_to_list'      => '返回列表',
     'submit'            => '提交',
+    'continue_editing'  => '继续编辑',
     'menu'              => '菜单',
     'input'             => '输入',
     'succeeded'         => '成功',
