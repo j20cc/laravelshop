@@ -1,13 +1,13 @@
--- MySQL dump 10.13  Distrib 5.7.22, for linux-glibc2.12 (x86_64)
+-- MySQL dump 10.13  Distrib 5.7.24, for Linux (x86_64)
 --
--- Host: 127.0.0.1    Database: laravel-shop
+-- Host: 127.0.0.1    Database: shop.test
 -- ------------------------------------------------------
--- Server version	5.7.22-log
+-- Server version	5.7.24-0ubuntu0.16.04.1
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
+/*!40101 SET NAMES utf8 */;
 /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
 /*!40103 SET TIME_ZONE='+00:00' */;
 /*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
@@ -21,7 +21,7 @@
 
 LOCK TABLES `admin_menu` WRITE;
 /*!40000 ALTER TABLE `admin_menu` DISABLE KEYS */;
-INSERT INTO `admin_menu` VALUES (1,0,1,'首页','fa-bar-chart','/',NULL,'2018-09-13 06:02:13'),(2,0,7,'系统管理','fa-tasks','',NULL,'2018-11-22 08:47:13'),(3,2,8,'管理员','fa-users','auth/users',NULL,'2018-11-22 08:47:13'),(4,2,9,'角色','fa-user','auth/roles',NULL,'2018-11-22 08:47:13'),(5,2,10,'权限','fa-ban','auth/permissions',NULL,'2018-11-22 08:47:13'),(6,2,11,'菜单','fa-bars','auth/menu',NULL,'2018-11-22 08:47:13'),(7,2,12,'操作日志','fa-history','auth/logs',NULL,'2018-11-22 08:47:13'),(8,0,2,'用户管理','fa-user','/users','2018-09-14 01:55:15','2018-09-26 02:57:28'),(9,0,5,'订单管理','fa-bars','/orders','2018-09-17 09:39:29','2018-11-22 08:47:13'),(10,0,4,'商品管理','fa-cubes','/products','2018-09-17 09:43:13','2018-11-22 08:47:13'),(11,0,6,'优惠券管理','fa-bookmark','/coupon_codes','2018-09-26 02:56:35','2018-11-22 08:47:13'),(12,0,3,'类目管理','fa-flag','/categories','2018-11-22 08:46:56','2018-11-22 08:47:13');
+INSERT INTO `admin_menu` VALUES (1,0,1,'首页','fa-bar-chart','/',NULL,'2018-09-13 06:02:13'),(2,0,9,'系统管理','fa-tasks','',NULL,'2018-11-25 11:21:49'),(3,2,10,'管理员','fa-users','auth/users',NULL,'2018-11-25 11:21:49'),(4,2,11,'角色','fa-user','auth/roles',NULL,'2018-11-25 11:21:49'),(5,2,12,'权限','fa-ban','auth/permissions',NULL,'2018-11-25 11:21:49'),(6,2,13,'菜单','fa-bars','auth/menu',NULL,'2018-11-25 11:21:49'),(7,2,14,'操作日志','fa-history','auth/logs',NULL,'2018-11-25 11:21:49'),(8,0,2,'用户管理','fa-user','/users','2018-09-14 01:55:15','2018-09-26 02:57:28'),(9,0,7,'订单管理','fa-bars','/orders','2018-09-17 09:39:29','2018-11-25 11:21:49'),(10,0,4,'商品管理','fa-cubes','/products','2018-09-17 09:43:13','2018-11-22 08:47:13'),(11,0,8,'优惠券管理','fa-bookmark','/coupon_codes','2018-09-26 02:56:35','2018-11-25 11:21:49'),(12,0,3,'类目管理','fa-flag','/categories','2018-11-22 08:46:56','2018-11-22 08:47:13'),(13,10,6,'众筹商品','fa-codepen','/crowdfunding_products','2018-11-25 11:20:38','2018-11-25 11:22:20'),(14,10,5,'普通商品','fa-cubes','/products','2018-11-25 11:21:41','2018-11-25 11:22:20');
 /*!40000 ALTER TABLE `admin_menu` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -103,4 +103,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-11-22 16:54:25
+-- Dump completed on 2018-11-25 21:21:51
